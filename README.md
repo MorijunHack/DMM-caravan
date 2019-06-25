@@ -1,13 +1,13 @@
 # caravan
 
-# preparence
+## preparence
 
 - reset CSS
   - * {margin:0; padding:0; box-sizing:border-box;}
 - clearfix
   - .clearfix {content: "";  display: block;  clear: both;}
 
-# code header and footer
+## code header and footer
 
 - text-align →　指定したい要素の親要素につけることで、文字列を整えることができる
 - list-style　→　none:なし　disc:黒丸　circle:白丸　など（使うときに調べよう）
