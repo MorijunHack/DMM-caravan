@@ -81,15 +81,11 @@ header .headline {
 
 .blog {
 	width: 600px;
-	height: 1200px;
-	/*background: limegreen;*/
 	float: left;
 }
 
 .sidebar {
 	width: 240px;
-	height: 1200px;
-	/*background: palegreen;*/
 	float: left;
 }
 
