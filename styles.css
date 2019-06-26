@@ -19,9 +19,16 @@ a {
   clear: both;
 }
 
+/*フォント指定*/
+
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 /*header*/
 
 header {
+  position: relative;
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
@@ -30,6 +37,17 @@ header {
 
 header .headline{
   font-size: 32px;
+}
+
+.social {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .nav-list {
@@ -131,7 +149,7 @@ main {
   font-size: 11px;
 }
 
-/*.pagination {
+.pagination {
 	text-align: center;
 	padding-top: 50px;
 }
@@ -145,7 +163,7 @@ main {
 	border-radius: 3px;
 	padding: 0 5px;
 	line-height: 30px;
-}*/
+}
 
 
 /*mainの右側(sidebar)*/
